@@ -1,0 +1,11 @@
+{
+  "name": "webframeworks-tests",
+  "scripts": {
+    "test": "mocha --timeout 5000 --reporter nyan express-test.js"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
+  }
+}
